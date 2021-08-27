@@ -1,7 +1,7 @@
 # Purpose of this ReadMe.md file
-+1
-+2
-+3
+a__ To provide pertinent information about the structure of this MileStone3 Project.
+b__ Testing ReadMe.md file for proper spacing between lines. Currently testing using 2 underscores directly after the letters a, b, c
+C__
 
 
 # Getting Started with Create React App
