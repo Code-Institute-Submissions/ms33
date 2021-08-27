@@ -5,7 +5,7 @@ function App() {
       <div className='card'>
         <h2>TITLE</h2>
         <div className='actions'>
-          <button>Delete</button>
+          <button className='btn'>Delete</button>
         </div>
       </div>
     </div>
