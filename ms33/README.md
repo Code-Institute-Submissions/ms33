@@ -1,8 +1,10 @@
 # Purpose of this ReadMe.md file
- To provide pertinent information about the structure of this MileStone3 Project.
-## Testing ReadMe.md file for proper spacing between lines. Previous Testing = failed. Currently testing using hashtags
+a) To provide pertinent information about the structure of this MileStone3 Project.
+
 <br />
-C__ Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
+b) Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
+<br />
+c) I'm learning ReactJS to help build this projects interface.
 
 
 # Getting Started with Create React App
