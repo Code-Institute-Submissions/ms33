@@ -1,6 +1,6 @@
 # Purpose of this ReadMe.md file
-a__ To provide pertinent information about the structure of this MileStone3 Project.
-b__ Testing ReadMe.md file for proper spacing between lines. Currently testing using 2 underscores directly after the letters a, b, c
+ To provide pertinent information about the structure of this MileStone3 Project.
+## Testing ReadMe.md file for proper spacing between lines. Previous Testing = failed. Currently testing using hashtags
 C__
 
 
