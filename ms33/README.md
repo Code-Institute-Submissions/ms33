@@ -6,7 +6,12 @@ b) Testing br / methods as hashtags are for titles. = SUCCESS, even though this 
 <br />
 c) I'm learning ReactJS to help build this projects interface.
 
-
+d) Replicating Todo's is as easy as copying and pasting multiple Todo functions like this instead of the entire code needing being written!!
+    <Todo />
+    <Todo />
+    <Todo />
+    <Todo />
+    
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
