@@ -2,7 +2,7 @@
  To provide pertinent information about the structure of this MileStone3 Project.
 ## Testing ReadMe.md file for proper spacing between lines. Previous Testing = failed. Currently testing using hashtags
 <br />
-C__ Testing br / methods as hashtags are for titles.
+C__ Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
 
 
 # Getting Started with Create React App
