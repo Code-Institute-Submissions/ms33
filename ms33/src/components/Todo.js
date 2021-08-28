@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
 function Todo(props) {
-
-    useState();
+    useState(false); //State is not open
 
     function deleteHandler() {
 
