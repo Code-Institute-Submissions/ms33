@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 function Todo(props) {
-    useState(false); //State is not open
+    const [modalIsOpen, setModalIsOpen] = useState(false); //State is not open (false), only work with setModalIsOpen
 
     function deleteHandler() {
-
+        setModalIsOpen(true); //change Modal to closed (true), and to render modalIsOpen to use the JSX code.
     }
 
 
