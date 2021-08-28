@@ -1,5 +1,5 @@
-function Backdrop() { }
-return <div className='backdrop' />;
+function Backdrop() {
+    return <div className='backdrop' />;
 }
 
 export default Backdrop;
