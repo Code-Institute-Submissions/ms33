@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
 function Todo(props) {
+
+    useState();
+
     function deleteHandler() {
 
     }
