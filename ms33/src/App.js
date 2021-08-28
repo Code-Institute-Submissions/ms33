@@ -4,9 +4,10 @@ function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo text='Learn React' />
-      <Todo text='Master React' />
-      <Todo text='Explore the full React course' />
+      <Todo text='Create new recipe' />
+      <Todo text='Read new recipe' />
+      <Todo text='Update existing recipe' />
+      <Todo text='Delete existing recipe' />
     </div>
   );
 };
