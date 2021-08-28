@@ -1,4 +1,6 @@
+import Backdrop from "./components/Backdrop";
 import Todo from "./components/Todo";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Todo text='Read new recipe' />
       <Todo text='Update existing recipe' />
       <Todo text='Delete existing recipe' />
+      <Modal />
+      <Backdrop />
     </div>
   );
 };
