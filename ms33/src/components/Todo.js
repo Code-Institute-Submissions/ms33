@@ -4,10 +4,14 @@ import Modal from './Modal';
 import Backdrop from './Backdrop';
 
 function Todo(props) {
-    const [modalIsOpen, setModalIsOpen] = useState(false); //State is not open (false), only work with setModalIsOpen
+    const [modalIsOpen, setModalIsOpen] = useState(false); //initial State is not open (false), only work with setModalIsOpen
 
-    function deleteHandler() {
+    function deleteHandler(props) {
         setModalIsOpen(true); //change Modal to closed (true), and to render modalIsOpen to use the JSX code.
+    }
+
+    function closeModalHandler() {
+        setModalIsOpen(false);
     }
 
     /* JSX Code */
@@ -17,8 +21,10 @@ function Todo(props) {
             <div className='actions'>
                 <button className='btn' onClick={deleteHandler}>Delete</button>
             </div>
-            {modalIsOpen && <Modal />}
-            {modalIsOpen && <Backdrop />}
+            {modalIsOpen && (
+                <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />
+            )}
+            {modalIsOpen && <Backdrop onCancel={closeModalHandler} />}
         </div>
     );
 }
