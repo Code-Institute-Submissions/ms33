@@ -1,15 +1,13 @@
-import Todo from "./components/Todo";
+import { Route } from 'react-router-dom';
+
+import AllMeetupsPage from './pages/AllMeetups';
+import NewMeetupPage from './pages/NewMeetup';
+import FavoritesPage from './pages/Favorites';
 
 function App() {
-  return (
-    <div>
-      <h1>My Todos</h1>
-      <Todo text='Create new recipe' />
-      <Todo text='Read new recipe' />
-      <Todo text='Update existing recipe' />
-      <Todo text='Delete existing recipe' />
-    </div>
-  );
-};
+  return <div>
+
+  </div>;
+}
 
 export default App;
