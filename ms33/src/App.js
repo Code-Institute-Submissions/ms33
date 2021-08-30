@@ -8,7 +8,6 @@ import NewMeetupPage from './pages/NewMeetup';
 import FavoritesPage from './pages/Favorites';
 import MainNavigation from './components/layout/MainNavigation';
 
-// Route path, exact  is used to ensure the Switch doesnt stop at just /
 function App() {
   return (
     <div>
