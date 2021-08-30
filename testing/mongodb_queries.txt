@@ -1,4 +1,4 @@
-gitpod /workspace/ms33 $ mongo "mongodb+srv://ms3cluster.yqoe8.mongodb.net/lotteryDB" --username rootbeer
+gitpod /workspace/ms33 $ mongo "mongodb+srv://ms3cluster.yqoe8.mongodb.net/lotteryDB" --username me
 MongoDB shell version v4.4.8
 Enter password: 
 connecting to: mongodb://ms3cluster-shard-00-00.yqoe8.mongodb.net:27017,ms3cluster-shard-00-01.yqoe8.mongodb.net:27017,ms3cluster-shard-00-02.yqoe8.mongodb.net:27017/lotteryDB?authSource=admin&compressors=disabled&gssapiServiceName=mongodb&replicaSet=atlas-gjmd8t-shard-0&ssl=true
