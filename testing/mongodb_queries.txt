@@ -1,0 +1,37 @@
+gitpod /workspace/ms33 $ mongo "mongodb+srv://ms3cluster.yqoe8.mongodb.net/lotteryDB" --username rootbeer
+MongoDB shell version v4.4.8
+Enter password: 
+connecting to: mongodb://ms3cluster-shard-00-00.yqoe8.mongodb.net:27017,ms3cluster-shard-00-01.yqoe8.mongodb.net:27017,ms3cluster-shard-00-02.yqoe8.mongodb.net:27017/lotteryDB?authSource=admin&compressors=disabled&gssapiServiceName=mongodb&replicaSet=atlas-gjmd8t-shard-0&ssl=true
+Implicit session: session { "id" : UUID("c1b8fa9b-6faa-48c4-b14c-fc68070035ab") }
+MongoDB server version: 4.4.8
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+        https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+        https://community.mongodb.com
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> show collections
+scratchers
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll = db.scratchers
+lotteryDB.scratchers
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "xtreme_purple", price: "10", quantity: "5", winner: "false", prize: "0", notes: "white_lines", retailer: "publix", store_location: "29466-parkWest", purchase_date: "08/15/2021" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "money_maker", price: "10", quantity: "3", winner: "false", prize: "0", notes: "odds_1 in 3.48", retailer: "publix", store_location: "29466-parkWest", purchase_date: "08/5/2021" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "xtreme_purple", price: "10", prize: "0", county: "charleston",  date: "08/25/2021", address: "123 any street", city: "north_charleston", retailer: "kangaroo" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "xtreme_purple", price: "10", prize: "0", county: "charleston",  date: "08/25/2021", address: "123 any street", city: "north_charleston", retailer: "kangaroo" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "money_maker", price: "10", prize: "1000", county: "charleston",  date: "08/25/2021", address: "15 money street", city: "charleston", retailer: "publix" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "lucky_stars", price: "1", prize: "500", county: "berkeley",  date: "08/02/2021", address: "89 duck ln", city: "goose_creek", retailer: "corner_store" });
+WriteResult({ "nInserted" : 1 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.insert({ title: "lady_crossword", price: "3", prize: "75000", county: "dorchester",  date: "05/09/2021", address: "22 here ln", city: "summerville", retailer: "knightsville_market" });
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.find({price: "10"});
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.find({price: "10", $or: [{city: "summerville"}, {city: "charleston"}]}).sort({city: 1});
+{ "_id" : ObjectId("612d63bd0717a44cce752af2"), "title" : "money_maker", "price" : "10", "prize" : "1000", "county" : "charleston", "date" : "08/25/2021", "address" : "15 money street", "city" : "charleston", "retailer" : "publix" }
+{ "_id" : ObjectId("612d654c0717a44cce752af5"), "title" : "colossal", "price" : "10", "prize" : "1000", "county" : "dorchester", "date" : "05/09/2021", "address" : "22 here ln", "city" : "summerville", "retailer" : "knightsville_market" }
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.find({price: "10", $or: [{city: "summerville"}, {city: "charleston"}]}).sort({city:- 1});
+{ "_id" : ObjectId("612d654c0717a44cce752af5"), "title" : "colossal", "price" : "10", "prize" : "1000", "county" : "dorchester", "date" : "05/09/2021", "address" : "22 here ln", "city" : "summerville", "retailer" : "knightsville_market" }
+{ "_id" : ObjectId("612d63bd0717a44cce752af2"), "title" : "money_maker", "price" : "10", "prize" : "1000", "county" : "charleston", "date" : "08/25/2021", "address" : "15 money street", "city" : "charleston", "retailer" : "publix" }
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> 
