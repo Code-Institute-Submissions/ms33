@@ -6,7 +6,7 @@ b) Testing br / methods as hashtags are for titles. = SUCCESS, even though this 
 <br />
 c) I'm learning ReactJS to help build this projects interface.
 <br />
-d) parse and inject code into modules
+d) parse code into modules
     
 # Getting Started with Create React App
 
