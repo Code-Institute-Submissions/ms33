@@ -7,12 +7,12 @@ import AllMeetupsPage from './pages/AllMeetups';
 import NewMeetupPage from './pages/NewMeetup';
 import FavoritesPage from './pages/Favorites';
 
-// Route path, exact=true is used to ensure the Switch doesnt stop at just /
+// Route path, exact  is used to ensure the Switch doesnt stop at just /
 function App() {
   return (
     <div>
       <Switch>
-        <Route path='/' exact={true}>
+        <Route path='/' exact>
           <AllMeetupsPage />
         </Route>
         <Route path='/new-meetup'>
