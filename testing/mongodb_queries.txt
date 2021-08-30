@@ -2,7 +2,7 @@ gitpod /workspace/ms33 $ mongo "mongodb+srv://ms3cluster.yqoe8.mongodb.net/lotte
 MongoDB shell version v4.4.8
 Enter password: 
 connecting to: mongodb://ms3cluster-shard-00-00.yqoe8.mongodb.net:27017,ms3cluster-shard-00-01.yqoe8.mongodb.net:27017,ms3cluster-shard-00-02.yqoe8.mongodb.net:27017/lotteryDB?authSource=admin&compressors=disabled&gssapiServiceName=mongodb&replicaSet=atlas-gjmd8t-shard-0&ssl=true
-Implicit session: session { "id" : UUID("c1b8fa9b-6faa-48c4-b14c-fc68070035ab") }
+Implicit session: session { "id" : UUID("00000000000000xx000000") }
 MongoDB server version: 4.4.8
 Welcome to the MongoDB shell.
 For interactive help, type "help".
