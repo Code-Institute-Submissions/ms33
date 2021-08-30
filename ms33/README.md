@@ -1,16 +1,12 @@
 # Purpose of this ReadMe.md file
-a) To provide pertinent information about the structure of this MileStone3 Project.
+a) To provide pertinent information about the structure of this MileStone3 Project for Anthony K. More info coming tomorrow.
 
 <br />
 b) Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
 <br />
 c) I'm learning ReactJS to help build this projects interface.
-
-d) Replicating Todo's is as easy as copying and pasting multiple Todo functions like this instead of the entire code needing being written!!
-    <Todo />
-    <Todo />
-    <Todo />
-    <Todo />
+<br />
+d) parse and inject code into modules
     
 # Getting Started with Create React App
 
