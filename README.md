@@ -1,14 +1,13 @@
 # Purpose of this ReadMe.md file
-a) To provide pertinent information about the structure of this MileStone3 Project for Anthony K. More info coming tomorrow.
-
+a) To provide pertinent information about the structure of this MileStone3 Project for Anthony K.
 <br />
-b) Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
+b) Data Centric Development
 <br />
-c) I'm learning ReactJS to help build this projects interface.
+c) Testing br / methods as hashtags are for titles. = SUCCESS, even though this method was deprecated.
 <br />
-d) parse code into modules
     
-# Getting Started with Create React App
+# Core Technologies used in this project
+Python3, Flask, MongoDB, ReactJS, AWS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
