@@ -22,15 +22,30 @@ conn = mongo_connect(MONGO_URI)
 
 coll = conn[DATABASE][COLLECTION]
 
-#Pep8 compliance, splitting onto multiple lines
-new_doc = {
-        title: "Polaris-Road_To_Riches", price: "5",
-        prize: "0..2nd-Chance_Lottery_Special_TicketEntry1-VehicleRaffle",
-        county: "charleston", date: "05/19/2021", address: "Rivriera Dr.",
-        city: "mount_pleasant", retailer: "harris_teeter"
-    }
+# Pep8 compliance - no long lines
+# two dictionaries array
+# fill in the value below to add multiple records
+new_doc = [{
+    "title": "game_name",
+    "price": "1,2,3,5,10",
+    "prize": "dollarAmt",
+    "county": "nearestCounty",
+    "date": "05/19/2021",
+    "address": "street",
+    "city": "where_purchased",
+    "retailer": "store_name"
+}, {
+    "title": "game_name",
+    "price": "1,2,3,5,10",
+    "prize": "dollarAmt",
+    "county": "nearestCounty",
+    "date": "05/19/2021",
+    "address": "street",
+    "city": "where_purchased",
+    "retailer": "store_name"
+}]
 
-coll.insert(new_doc)
+coll.insert_many(new_doc)
 
 documents = coll.find()
 
