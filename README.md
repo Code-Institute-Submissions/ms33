@@ -54,7 +54,7 @@ coll.insert
 changed to coll.delete_one or delete_many
 changed to coll.insert_one or insert.many
 
-## MongoDB CRUD functionality
+## MongoDB CRUD functionality ++ database Query = at command prompt type: python3 mongo.py
 ##### Pep8 compliance - no long lines
 ### two dictionaries array
 #### fill in the value below to add multiple records
