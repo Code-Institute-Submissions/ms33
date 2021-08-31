@@ -45,9 +45,17 @@ new_doc = [{
     "retailer": "store_name"
 }]
 
-coll.insert_many(new_doc)
+# coll.insert_many(new_doc)
 
-documents = coll.find()
+documents = coll.find({"price": "10"}) #Read/Search records that match the key:value pair
+
+# coll.delete_one({"price": "10"}) #Delete one record that matches this key:value pair
+
+coll.insert_one({"title": "xtreme_purple", "price": "10", "prize": "1000", "county": "charleston",  "date": "08/25/2021", "address": "123 any street", "city": "north_charleston", "retailer": "kangaroo" });
+
+# coll.delete_many({"price": "10"})  #Delete records that match the key:value pair
+
+document = coll.find() #return all results
 
 for doc in documents:
     print(doc)

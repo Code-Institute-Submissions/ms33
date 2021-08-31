@@ -47,6 +47,13 @@ Dependencies: dnspython, pymongo.
             "win-export-certificate-and-key": "^1.0.4",
             "yargs-parser": "^20.2.4"
 
+### Deprecated during development
+coll.delete
+coll.insert
+
+changed to coll.delete_one or delete_many
+changed to coll.insert_one or insert.many
+
 ## Available Scripts
 
 In the project directory, you can run:
