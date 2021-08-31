@@ -54,6 +54,51 @@ coll.insert
 changed to coll.delete_one or delete_many
 changed to coll.insert_one or insert.many
 
+## MongoDB CRUD functionality
+# Pep8 compliance - no long lines
+# two dictionaries array
+# fill in the value below to add multiple records
+### add the below code into mongo.py
+#### To create multiple records use this:
+new_doc = [{
+    "title": "game_name",
+    "price": "1,2,3,5,10",
+    "prize": "dollarAmt",
+    "county": "nearestCounty",
+    "date": "05/19/2021",
+    "address": "street",
+    "city": "where_purchased",
+    "retailer": "store_name"
+}, {
+    "title": "game_name",
+    "price": "1,2,3,5,10",
+    "prize": "dollarAmt",
+    "county": "nearestCounty",
+    "date": "05/19/2021",
+    "address": "street",
+    "city": "where_purchased",
+    "retailer": "store_name"
+}]
+
+coll.insert_many(new_doc)
+
+
+#### To Read/search/find records that match the key:value pair:
+documents = coll.find({"price": "10"})
+
+#### To Read/search/find all records:
+documents = coll.find()
+
+#### To Delete one record that match the key:value pair:
+coll.delete_one({"price": "10"})
+
+#### To Delete all records that match the key:value pair:
+coll.delete_many({"price": "10"})
+
+#### Updates one record with the price of 1 dollar and changes its prize to 5000 dollars
+coll.update_one({"price": "1"}, {"$set": {"prize": "5000"}})
+
+
 ## Available Scripts
 
 In the project directory, you can run:
