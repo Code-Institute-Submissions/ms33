@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Hello {{ user.display_name() }}!</h1>
+        <h2>You've successfully registered!!</h2>
+        <p>UserName: {{ user.id }}</p>
+        <p>Email verification required, click the below link</p>
+        <a href="{{ confirm_url }}" title="email verification">{{ confirm_url }}</a>
+        <p>email verification link is valid for 60 minutes.</p>
+    </body>
+</html>
