@@ -1,0 +1,24 @@
+gitpod /workspace/ms33 $ pip3 install dnspython
+Collecting dnspython
+  Downloading dnspython-2.1.0-py3-none-any.whl (241 kB)
+     |████████████████████████████████| 241 kB 6.2 MB/s 
+Installing collected packages: dnspython
+Successfully installed dnspython-2.1.0
+WARNING: You are using pip version 21.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the '/home/gitpod/.pyenv/versions/3.8.11/bin/python3 -m pip install --upgrade pip' command.
+gitpod /workspace/ms33 $ pip install --upgrade pip
+Requirement already satisfied: pip in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (21.2.3)
+Collecting pip
+  Downloading pip-21.2.4-py3-none-any.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 7.7 MB/s 
+Installing collected packages: pip
+Successfully installed pip-21.2.4
+WARNING: You are using pip version 21.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the '/home/gitpod/.pyenv/versions/3.8.11/bin/python3 -m pip install --upgrade pip' command.
+gitpod /workspace/ms33 $ pip3 install pymongo
+Collecting pymongo
+  Downloading pymongo-3.12.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (545 kB)
+     |████████████████████████████████| 545 kB 6.3 MB/s 
+Installing collected packages: pymongo
+Successfully installed pymongo-3.12.0
+gitpod /workspace/ms33 $ 
