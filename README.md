@@ -55,10 +55,10 @@ changed to coll.delete_one or delete_many
 changed to coll.insert_one or insert.many
 
 ## MongoDB CRUD functionality
-# Pep8 compliance - no long lines
-# two dictionaries array
-# fill in the value below to add multiple records
-### add the below code into mongo.py
+##### Pep8 compliance - no long lines
+### two dictionaries array
+#### fill in the value below to add multiple records
+## add the below code into mongo.py
 #### To create multiple records use this:
 new_doc = [{
     "title": "game_name",
