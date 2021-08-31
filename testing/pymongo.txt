@@ -1,0 +1,14 @@
+gitpod /workspace/ms33 $ touch mongo.py
+gitpod /workspace/ms33 $ python3  mongo.py
+Mongo is connected
+{'_id': ObjectId('612d63720717a44cce752af0'), 'title': 'xtreme_purple', 'price': '10', 'prize': '0', 'county': 'charleston', 'date': '08/25/2021', 'address': '123 any street', 'city': 'north_charleston', 'retailer': 'kangaroo'}
+{'_id': ObjectId('612d63bd0717a44cce752af2'), 'title': 'money_maker', 'price': '10', 'prize': '1000', 'county': 'charleston', 'date': '08/25/2021', 'address': '15 money street', 'city': 'charleston', 'retailer': 'bluewater'}
+{'_id': ObjectId('612d64270717a44cce752af3'), 'title': 'lucky_stars', 'price': '1', 'prize': '500', 'county': 'berkeley', 'date': '08/02/2021', 'address': '89 duck ln', 'city': 'goose_creek', 'retailer': 'corner_store'}
+{'_id': ObjectId('612d64940717a44cce752af4'), 'title': 'lady_crossword', 'price': '3', 'prize': '75000', 'county': 'dorchester', 'date': '05/09/2021', 'address': '22 here ln', 'city': 'summerville', 'retailer': 'knightsville_market'}
+{'_id': ObjectId('612d654c0717a44cce752af5'), 'title': 'colossal', 'price': '10', 'prize': '1000', 'county': 'dorchester', 'date': '05/09/2021', 'address': '22 here ln', 'city': 'summerville', 'retailer': 'bluewater'}
+gitpod /workspace/ms33 $ git add -A
+gitpod /workspace/ms33 $ git commit -m "create security and connect python to mongo collection"
+[main a6041be] create security and connect python to mongo collection
+ 2 files changed, 29 insertions(+), 1 deletion(-)
+ create mode 100644 mongo.py
+gitpod /workspace/ms33 $ git push
