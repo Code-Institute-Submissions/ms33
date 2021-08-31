@@ -1,0 +1,4 @@
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.remove({title: "200x", price: "10"});
+WriteResult({ "nRemoved" : 2 })
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> coll.find({title: "200x"});
+MongoDB Enterprise atlas-gjmd8t-shard-0:PRIMARY> 
