@@ -6,6 +6,8 @@ b) Data Centric Development
 c) Scratch-off lottery ticket database. It identifies game names, and allows users to add more games, and ending sales dates.
 <br />
 d) This app is going through a major overhaul as coding became faulty. Renewing via reliable source reference: Code Institute learning modules.
+<br />
+e) Removing from private repo
     
 # Core Technologies used in this project
 Python3, Flask, MongoDB, AWS
