@@ -3,49 +3,20 @@ a) To provide pertinent information about the structure of this MileStone3 Proje
 <br />
 b) Data Centric Development
 <br />
-c) Scratch-off lottery ticket database. It identifies locations, prizes won, dates, game names, ticket prices. 
-Its most important feature is the ability to sort by County and/or City as well as all other values.
-The reason I built this database is because the Lottery commission doesn't allow sorting by anything other than game name.
+c) Scratch-off lottery ticket database. It identifies game names, and allows users to add more games, and ending sales dates.
 <br />
+d) This app is going through a major overhaul as coding became faulty. Renewing via reliable source reference: Code Institute learning modules.
     
 # Core Technologies used in this project
-Python3, Flask, MongoDB, ReactJS, AWS
+Python3, Flask, MongoDB, AWS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Deployment
 bash: python3 mongo.py
 Dependencies: dnspython, pymongo.
 "requires": 
-            "@babel/core": "^7.9.0",
-            "@mongosh/autocomplete": "1.0.5",
-            "@mongosh/errors": "1.0.5",
-            "@mongosh/history": "1.0.5",
-            "@mongosh/i18n": "1.0.5",
-            "@mongosh/service-provider-core": "1.0.5",
-            "@mongosh/service-provider-server": "1.0.5",
-            "@mongosh/shell-api": "1.0.5",
-            "@mongosh/shell-evaluator": "1.0.5",
-            "@mongosh/snippet-manager": "1.0.5",
-            "@mongosh/types": "1.0.5",
-            "analytics-node": "^3.4.0-beta.1",
-            "ansi-escape-sequences": "^5.1.2",
-            "askcharacter": "^1.0.0",
-            "askpassword": "^1.2.4",
-            "bson": "^4.4.1",
-            "get-console-process-list": "^1.0.2",
-            "is-recoverable-error": "^1.0.2",
-            "lodash.set": "^4.3.2",
-            "macos-export-certificate-and-key": "^1.0.2",
-            "mongodb-redact": "^0.2.2",
-            "nanobus": "^4.4.0",
-            "pretty-bytes": "^5.3.0",
-            "pretty-repl": "^3.1.1",
-            "semver": "^7.1.2",
-            "strip-ansi": "^6.0.0",
-            "text-table": "^0.2.0",
-            "win-export-certificate-and-key": "^1.0.4",
-            "yargs-parser": "^20.2.4"
+            
 
 ### Deprecated during development
 coll.delete
