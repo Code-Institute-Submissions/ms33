@@ -8,6 +8,8 @@ c) Scratch-off lottery ticket database. It identifies game names, and allows use
 d) This app is going through a major overhaul as coding became faulty. Renewing via reliable source reference: Code Institute learning modules.
 <br />
 e) Removing from private repo
+<br />
+f) base.html = Parent template (contains all main references to the other files for css and JavaScript, that will be used across the entire application.)
     
 # Core Technologies used in this project
 Python3, Flask, MongoDB, AWS
