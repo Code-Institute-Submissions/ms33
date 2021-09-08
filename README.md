@@ -18,7 +18,10 @@ Python3, Flask, MongoDB, AWS
 bash: python3 mongo.py
 Dependencies: dnspython, pymongo.
 "requires": 
-            
+            obtained in requirements.txt
+
+### pip3 install (update requirements.txt)
+freeze --local > requirements.txt
 
 ### Deprecated during development
 coll.delete
