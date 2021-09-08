@@ -15,7 +15,7 @@ Python3, Flask, MongoDB, AWS
 
 
 ## Deployment
-bash: python3 mongo.py
+bash: python3 app.py
 Dependencies: dnspython, pymongo.
 "requires": 
             obtained in requirements.txt
