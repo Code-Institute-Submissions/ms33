@@ -12,7 +12,10 @@ e) Removing from private repo
 f) base.html = Parent template (contains all main references to the other files for css and JavaScript, that will be used across the entire application.)(purpose: no replication...Framework philosophy(Flask, Django, etc.)).
     
 # Core Technologies used in this project
-Python3, Flask, MongoDB, Jinja, AWS, JQuery, MaterializeCSS
+Python3, Flask, MongoDB, Jinja, AWS
+
+## Additional Technologies utilized
+ JQuery, MaterializeCSS
 
 
 
