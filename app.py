@@ -68,10 +68,10 @@ def login():
             # ensure hashed password matches user input
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
-                session["user"] = request.form.get("username").lower()
-                flash("Welcome, {}".format(
+                        session["user"] = request.form.get("username").lower()
+                        flash("Welcome, {}".format(
                             request.form.get("username")))
-                return redirect(url_for(
+                        return redirect(url_for(
                             "profile", username=session["user"]))
             else:
                 # invalid password match
@@ -196,4 +196,4 @@ def delete_category(category_id):
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
-            debug=True)
+            debug=False)
