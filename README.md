@@ -1,4 +1,6 @@
 # Purpose of this ReadMe.md file
+It MUST be known that this code is from the Code Institute and I cannot take ownership of it, it belongs to Code Institute solely.
+<br />
 a) To provide pertinent information about the structure of this MileStone3 Project for Anthony K.
 <br />
 b) Data Centric Development
