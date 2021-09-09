@@ -17,11 +17,10 @@ Python3, Flask, MongoDB, Jinja, AWS
 ## Additional Technologies utilized
  JQuery, MaterializeCSS
 
-### Removed Technologies
-ReactJS
 
 #### References
 Code Institute: https://codeinstitute.net/<br />
+Bash (shell): https://www.gnu.org/software/bash/<br />
 Python3: https://www.python.org/<br />
 GitHub: https://github.com/<br />
 GitPod: https://gitpod.io/workspaces<br />
@@ -29,11 +28,16 @@ MongoDB: https://www.mongodb.com/<br />
 Flask: https://flask.palletsprojects.com/en/2.0.x/<br />
 Heroku: https://dashboard.heroku.com/apps<br />
 NodeJS: https://nodejs.org/en/<br />
+DJango: https://www.djangoproject.com/<br />
 JQuery: https://code.jquery.com/<br />
 MaterializeCSS: https://materializecss.com/<br />
 Random Keygen: https://randomkeygen.com/<br />
 CDNJS: https://cdnjs.com/<br />
 
+
+
+### Removed Technologies
+ReactJS
 
 ## Deployment
 bash: python3 app.py
