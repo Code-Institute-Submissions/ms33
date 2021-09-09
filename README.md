@@ -26,6 +26,7 @@ GitHub: https://github.com/<br />
 GitPod: https://gitpod.io/workspaces<br />
 MongoDB: https://www.mongodb.com/<br />
 Flask: https://flask.palletsprojects.com/en/2.0.x/<br />
+Jinja: https://palletsprojects.com/p/jinja/<br />
 Heroku: https://dashboard.heroku.com/apps<br />
 NodeJS: https://nodejs.org/en/<br />
 DJango: https://www.djangoproject.com/<br />
