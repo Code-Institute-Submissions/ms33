@@ -28,8 +28,11 @@ GitPod: https://gitpod.io/workspaces<br />
 MongoDB: https://www.mongodb.com/<br />
 Flask: https://flask.palletsprojects.com/en/2.0.x/<br />
 Heroku: https://dashboard.heroku.com/apps<br />
+NodeJS: https://nodejs.org/en/<br />
 JQuery: https://code.jquery.com/<br />
 MaterializeCSS: https://materializecss.com/<br />
+Random Keygen: https://randomkeygen.com/<br />
+CDNJS: https://cdnjs.com/<br />
 
 
 ## Deployment
