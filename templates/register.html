@@ -1,12 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
 
+<h3 class="center-align">Register</h3>
+
 <div class="row">
-    <div class="col s12 m8 offset-m2">
-        <div class="card-panel teal">
-            <span class="white-text">test</span>
+    <form class="col s12 m8 offset-m2">
+        <div class="card-panel">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-user-plus prefix light-green-text text-darken-4">account_circle</i>
+                    <input id="username" name="username" type="text" class="validate">
+                    <label for="username">Username</label>
+                </div>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
 
 {% endblock %}
