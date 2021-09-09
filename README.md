@@ -35,6 +35,11 @@ MaterializeCSS: https://materializecss.com/<br />
 Random Keygen: https://randomkeygen.com/<br />
 CDNJS: https://cdnjs.com/<br />
 
+##### Additional References
+Font-Awesome<br />
+PyMongo<br />
+dnspython<br />
+
 
 
 ### Removed Technologies
