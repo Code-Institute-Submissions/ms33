@@ -34,7 +34,7 @@ RUN mkdir -p ~/.pg_ctl/bin ~/.pg_ctl/sockets \
     && echo '#!/bin/bash\npg_ctl -D $PGDATA -l ~/.pg_ctl/log -o "-k ~/.pg_ctl/sockets" stop\n' > ~/.pg_ctl/bin/pg_stop \
     && chmod +x ~/.pg_ctl/bin/*
 
-# ENV DATABASE_URL="postgresql://gitpod@localhost"
+ENV DATABASE_URL="postgresql://gitpod@localhost"
 ENV PGHOSTADDR="127.0.0.1"
 ENV PGDATABASE="postgres"
 
@@ -68,7 +68,7 @@ RUN echo 'alias run="python3 $GITPOD_REPO_ROOT/manage.py runserver 0.0.0.0:8000"
 
 # Local environment variables
 # C9USER is temporary to allow the MySQL Gist to run
-ENV C9_USER="root"
+ENV C9_USER="gitpod"
 ENV PORT="8080"
 ENV IP="0.0.0.0"
 ENV C9_HOSTNAME="localhost"
