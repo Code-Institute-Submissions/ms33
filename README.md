@@ -36,7 +36,7 @@ Random Keygen: https://randomkeygen.com/<br />
 CDNJS: https://cdnjs.com/<br />
 
 ##### Additional References
-PyPI: https://pypi.org/
+PyPI: https://pypi.org/<br />
 Font-Awesome: https://fontawesome.com/<br />
 PyMongo<br />
 dnspython<br />
