@@ -31,6 +31,7 @@ Heroku: https://dashboard.heroku.com/apps<br />
 NodeJS: https://nodejs.org/en/<br />
 DJango: https://www.djangoproject.com/<br />
 JQuery: https://code.jquery.com/<br />
+Werkzeug (security):  https://palletsprojects.com/p/werkzeug/
 MaterializeCSS: https://materializecss.com/<br />
 Random Keygen: https://randomkeygen.com/<br />
 CDNJS: https://cdnjs.com/<br />
